@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-[Logo dos times da NBA](https://3x3post.github.io/3x3post/)
+[Logo dos times da NBA](https://nerdbask-basketball.github.io/NERDBASK/)
 
 <!--
 **nbacomdados/nbacomdados** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
