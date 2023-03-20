@@ -9,7 +9,7 @@ _$ = function(obj){
 }
 
 function selectPage(val){
-	requisitar("https://alura-scraping.herokuapp.com/produtos?_page=" + val + "&_limit=10");
+	requisitar("https://IdolizedBriefChief.popoflipe.repl.co/produtos?_page=" + val + "&_limit=10");
 }
 
 // Montando os cards de anúncios
