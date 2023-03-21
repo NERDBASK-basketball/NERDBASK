@@ -108,7 +108,8 @@ function trataRespostaJSON(requisicaoAjax){
 			total_count = Number(headers['x-total-count']);
 			
 			// Obtendo os links de paginação
-			parts = headers['link'].split(',');
+			string_headers = requisicaoAjax.responseText?.split('\r\n');
+			parts = headers['link']?.split(',');
 			links = parts.reduce(function (acc, current, i){
 				aux = current.trim().split(';');
 				acc[i] = {'link': aux[0].replace("<", "'").replace(">", "'"), 'type': aux[1].replace(" rel=", "").replace('"', "").replace('"', "")};
