@@ -108,6 +108,10 @@ function trataRespostaJSON(requisicaoAjax){
 			total_count = Number(headers['x-total-count']);
 			
 			// Obtendo os links de paginação
+			for (let prop in headers) {
+			  // Imprimindo a propriedade e o valor
+			  console.log(prop + ": " + headers[prop]);
+			}
 			string_headers = requisicaoAjax.responseText?.split('\r\n');
 			parts = headers['link']?.split(',');
 			links = parts.reduce(function (acc, current, i){
